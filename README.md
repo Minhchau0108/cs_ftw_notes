@@ -4,7 +4,7 @@ My name is Minh Chau. This will be my note during the course.
 ## Week 1
 ### Day 1
 1. Clone a Github repository
-`$ git clone`
+`$ git clone URL`
 2. Push to Github repository
 `$ git add .`
 `$ git commit -m "a change message"`
