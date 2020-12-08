@@ -1,0 +1,112 @@
+body {
+  background-color: #fff;
+  background-image:
+  linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+  linear-gradient(#eee .1em, transparent .1em);
+  background-size: 100% 1.2em;
+}
+/*Create 20% margin left and right of the text.*/
+section {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/*Change the color of all <p> elements, example #2c3e50.*/
+#assignment1 p{
+  color: #2c3e50;
+}
+/*With the font property: Set the <p> to "italic", "20px" and "Verdana".*/
+p{
+  font-style: italic; 
+  font-size: 20px;
+  font-family: Verdana;
+}
+/*Make the first letter of each paragraph 200% bigger and has color #27ae60.*/
+#assignment1 p::first-letter{
+  font-size: 40px;
+  color: #27ae60;
+}
+/*Change the color of the element with ID para1, example #2ecc71.*/
+#para1{
+  color:#2ecc71;
+}
+/*Change the color of class header, example #e67e22.*/
+.header{
+  color: #e67e22;
+}
+/*Change the background color of all <h1> elements, example linen.*/
+#assignment1 h1{
+  background-color: linen;
+}
+/*Hide the first <h1> element. It should still take up the same place as before.*/
+#visibility {
+  visibility: hidden;
+}
+/*Hide the first <h1> element. It should not take up any space*/
+#display {
+  display: none;
+}
+
+/* default */
+a:link {
+  color: red;
+  text-decoration: none;
+}
+/* When user hover the mouse on it */
+a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+/* When user click on it */
+a:visited {
+  color: green;
+}
+
+/* after user click on it */
+a:active {
+  color: yellow;
+}
+#assignment3{
+  font-size: 16px;
+}
+/*Use just one declaration to make the text of lower level smaller the higher level.*/
+#different li{
+  font-size: 0.8em;
+}
+
+/*How to make all levels to have the same font-size which is slightly smaller (80%) than the root font-size?*/
+#same li{
+  font-size: 12px;
+}
+/*Create a square box element that will always display as a square*/
+.square {
+  width: 20%;
+  background-color:  #27ae60;
+}
+.square:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+.box{
+  border: 50px solid#e74c3c;
+  padding: 50px;
+  text-transform: uppercase;
+  width: 50%;
+}
+/*box-sizing to be border-box that's applied to all elements in the page*/
+/*border-box: specify width to include the padding and borders (khong tinh padding + border*/
+*{
+  box-sizing: border-box;
+}
+/*box-sizing: content-box*/
+/*height and width only set the size of the content box (tinh padding + border)*/
+.content{
+  box-sizing: content-box;
+  border: 50px solid #1abc9c;
+}
+/*box1: 50 + 50 + 62.5 + 50 + 50 = 262.5 = width
+box2: 50 + 50 + 262.5 (width) + 50 + 50 ==> different =  padding + border*/
+/*box3 and box4 width = 200px*/

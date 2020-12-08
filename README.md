@@ -1,6 +1,6 @@
 # cs_ftw_notes
 Hello World!
-My name is Minh Chau. This will be my note during the course. 
+My name is Minh Chau. This is my note during the course. 
 ## Week 1
 ### Day 1
 #### Basic command
@@ -17,4 +17,7 @@ My name is Minh Chau. This will be my note during the course.
 `$ git push origin main`
 3. Pull from a Github repository
 `$ git pull origin main`
+4. Checkout branch
+`$ git checkout`
 
+### Day 2
