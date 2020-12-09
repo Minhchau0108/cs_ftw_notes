@@ -22,6 +22,14 @@ My name is Minh Chau. This is my note during the course.
 
 ### Day 2
 1. Relative length units
+| Features          | Tutorials               |
+| ----------------- |:----------------------- |
+| GitHub Sync       | [:link:][GitHub-Sync]   |
+| Browser Extension | [:link:][HackMD-it]     |
+| Book Mode         | [:link:][Book-mode]     |
+| Slide Mode        | [:link:][Slide-mode]    | 
+| Share & Publish   | [:link:][Share-Publish] |
+
 | Unit          | Relative to             |
 | ----------------- |:----------------------- |
 | em     | Font size of the element.  |
