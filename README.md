@@ -29,5 +29,12 @@ My name is Minh Chau. This is my note during the course.
 | vw         | 1% of viewport's width.      |
 | vh        |  1% of viewport's height.   | 
 
+| Unit          | Relative to             |
+| ----------------- |:----------------------- |
+| em     | Font size of the element.  |
+| rem	 | Font size of the root element.   |
+| vw       | 1% of viewport's width.   |
+| vh   | 1% of viewport's height.   | 
+
 2. Box sizing
 `box-sizing: border-box` to specify width to include the padding and borders.
