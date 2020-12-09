@@ -22,13 +22,12 @@ My name is Minh Chau. This is my note during the course.
 
 ### Day 2
 1. Relative length units
-| Features          | Tutorials               |
+| Unit        | Relative to               |
 | ----------------- |:----------------------- |
-| GitHub Sync       | [:link:][GitHub-Sync]   |
-| Browser Extension | [:link:][HackMD-it]     |
-| Book Mode         | [:link:][Book-mode]     |
-| Slide Mode        | [:link:][Slide-mode]    | 
-| Share & Publish   | [:link:][Share-Publish] |
+| em        | Font size of the element.   |
+| rem	 | Font size of the root element.   |
+| vw         | 1% of viewport's width.      |
+| vh        |  1% of viewport's height.   | 
 
 | Unit          | Relative to             |
 | ----------------- |:----------------------- |
