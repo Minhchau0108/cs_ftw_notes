@@ -22,10 +22,6 @@ My name is Minh Chau. This is my note during the course.
 
 ### Day 2
 1. Relative length units
-em	Font size of the element.
-rem	Font size of the root element.
-vw	1% of viewport's width.
-vh	1% of viewport's height.
 | Unit          | Relative to             |
 | ----------------- |:----------------------- |
 | em     | Font size of the element.  |
