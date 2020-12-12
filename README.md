@@ -33,3 +33,7 @@ My name is Minh Chau. This is my note during the course.
 
 2. Box sizing
 `box-sizing: border-box` to specify width to include the padding and borders.
+
+### Visual Studio 
+1. Comment
+`Ctrl + K + C` : comment
